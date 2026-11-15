@@ -1,0 +1,2 @@
+import {PageHero,Button} from './components/ui';
+export default function NotFound(){return <main id="main"><PageHero label="404 / Page not found" title={<>A little off course.<br/><em>Let’s find your way back.</em></>} description="This page couldn’t be found. Explore our solutions or return to the homepage."><Button href="/">Back to home</Button><Button href="/solutions" outline>Explore solutions</Button></PageHero></main>}

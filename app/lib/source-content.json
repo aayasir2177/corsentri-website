@@ -1,0 +1,325 @@
+{
+  "resources/what-is-cybersecurity-monitoring": {
+    "title": "What is cybersecurity monitoring? A plain‑English guide",
+    "description": "Cybersecurity monitoring means keeping a continuous, careful watch on what happens in your systems, so unusual activity is noticed early and checked before it becomes a bigger problem.",
+    "faqs": [],
+    "html": "<h2>What does monitoring actually watch?</h2><p>Every day your systems record activity: people signing in, files being opened or changed, settings being updated, new accounts being created. Most of it is routine. Monitoring looks across that activity for the small number of things that don’t fit, like a sign-in from an unusual location at 2 a.m. or an admin account nobody remembers creating.</p><h2>Who does the watching?</h2><p>At CorSentri, AI-enabled technology does the constant watching and flags what looks unusual. Our security team reviews those signals and adds context, such as whether an unusual sign-in is a real concern or a colleague traveling, so you only hear about what matters.</p>When something needs attention, you get an alert with context: what happened, why it matters and the recommended next step. Alert handling, notification channels and response responsibilities are agreed as part of your service.<h2>Does monitoring make us compliant?</h2><p>No. Monitoring alone does not make an organization compliant with HIPAA or any other framework. It can support your wider security efforts, for example by helping you review activity in systems that hold sensitive information.</p><h2>How to get started</h2><p>Start by listing the systems that hold your most sensitive information. Then talk to a monitoring partner about what they would cover, how alerts reach you and what you can expect in reports.</p>",
+    "category": "Monitoring basics",
+    "readTime": "2 min read",
+    "image": "blog-monitoring.jpeg",
+    "headings": [
+      "What does monitoring actually watch?",
+      "Who does the watching?",
+      "Does monitoring make us compliant?",
+      "How to get started"
+    ]
+  },
+  "resources/choosing-a-monitoring-partner": {
+    "title": "What to ask before choosing a monitoring partner",
+    "description": "Choosing a monitoring partner is easier when you know what to ask. These questions show how a provider really works, before you sign anything.",
+    "faqs": [],
+    "html": "<h2>What exactly will you monitor?</h2><p>Ask which of your systems will be covered and which won’t. A good answer is specific, and it explains any limitations up front rather than after something goes wrong.</p><h2>Who reviews alerts, and when?</h2><p>Find out whether a person looks at what the technology flags, and whether that happens at night, at weekends and on holidays too. Software alone can produce a lot of noise.</p><h2>How will you contact us?</h2><p>Ask who gets notified, through which channels and how quickly. You should be able to choose the contacts, and know what happens if the first person can’t be reached.</p><h2>What happens after an alert?</h2><p>Make sure roles are clear. Who investigates, who takes action and who makes decisions? A clear answer here saves confusion when it matters most.</p><h2>What will reports look like?</h2><p>Ask to see an example. Reports should tell you what was seen, what it meant and what to improve, in language your team can actually use.</p><h2>How does onboarding work?</h2><p>Ask what the provider needs from you, how long setup takes and who does what. A short, clear onboarding plan is a good sign.</p><h2>What does it cost, and what’s included?</h2><p>Make sure you know what the price covers and what would cost extra, so there are no surprises later.</p>Monitoring supports your security program. It doesn’t replace it, and it doesn’t make you compliant on its own. Be wary of any provider that suggests otherwise.<h2>Ask us</h2><p>These are the questions we expect, and we answer them during a free consultation.</p>",
+    "category": "Choosing a partner",
+    "readTime": "2 min read",
+    "image": "blog-choosing-partner.jpeg",
+    "headings": [
+      "What exactly will you monitor?",
+      "Who reviews alerts, and when?",
+      "How will you contact us?",
+      "What happens after an alert?",
+      "What will reports look like?",
+      "How does onboarding work?",
+      "What does it cost, and what’s included?",
+      "Ask us"
+    ]
+  },
+  "resources/five-warning-signs": {
+    "title": "Five warning signs your systems may need a closer look",
+    "description": "Most security problems don’t start with an obvious break-in. They start with small changes that are easy to miss in a busy week. Here are five worth knowing, and what to do if you see one.",
+    "faqs": [],
+    "html": "<h2>1. Sign-ins from unusual places or at unusual times</h2><p>A colleague who always works from the office suddenly signs in from another country at 3 a.m. It may be travel or a VPN. It may also be someone using a stolen password. Either way, it’s worth a quick check.</p><h2>2. New admin accounts or changed permissions</h2><p>An administrator account nobody remembers creating, or a standard user who suddenly has admin rights, is a common sign that someone is trying to keep access to your systems.</p><h2>3. Repeated failed sign-ins or unexpected password resets</h2><p>A burst of failed sign-ins on one account, or reset emails nobody asked for, can mean someone is guessing passwords or testing ones taken from another website.</p><h2>4. New email forwarding rules</h2><p>A rule that quietly forwards invoices or all incoming mail to an outside address is a classic step in email fraud. It’s easy to set up and easy to overlook.</p><h2>5. Security tools turned off or activity logs missing</h2><p>Antivirus disabled on one machine, or a gap in the logs, can be an attempt to hide what’s happening. Large or unusual file downloads at odd hours deserve a look for the same reason.</p>None of these signs proves an attack on its own. Many turn out to be routine. What matters is that someone notices, checks and decides, quickly.<h2>What to do when you notice one</h2><ul><li>Don’t delete anything. Note what you saw and when.</li><li>Tell whoever looks after your IT straight away.</li><li>If an account looks affected, change its password from a device you trust and check its sign-in methods.</li><li>Check whether the same thing has happened on other accounts.</li></ul><h2>Why this is hard to do alone</h2><p>These signs hide among thousands of routine events, and they often appear outside office hours. Monitoring keeps watch across the systems you choose, flags what looks unusual and has a person review it, so the important signals don’t wait until Monday.</p>",
+    "category": "Warning signs",
+    "readTime": "2 min read",
+    "image": "blog-warning-signs.jpeg",
+    "headings": [
+      "1. Sign-ins from unusual places or at unusual times",
+      "2. New admin accounts or changed permissions",
+      "3. Repeated failed sign-ins or unexpected password resets",
+      "4. New email forwarding rules",
+      "5. Security tools turned off or activity logs missing",
+      "What to do when you notice one",
+      "Why this is hard to do alone"
+    ]
+  },
+  "pricing": {
+    "title": "Clear pricing, built around your systems.",
+    "description": "Every plan includes 24/7/365 monitoring, review by our security team and plain-English reporting. Your price depends on how much we monitor, not on hidden extras.",
+    "faqs": [
+      [
+        "Why don’t you list prices?",
+        "Every environment is different. We confirm what needs monitoring first, so your quote reflects what you actually need."
+      ],
+      [
+        "How quickly will I get a quote?",
+        "We reply within one business day to arrange a short call, then send your quote."
+      ],
+      [
+        "Are there setup fees?",
+        "Onboarding is included at no extra cost with a 12-month agreement. Month-to-month plans include a one-time onboarding fee that covers setup and tuning."
+      ],
+      [
+        "Is there a long-term contract?",
+        "Our standard agreement is 12 months. Month-to-month is also available at a slightly higher monthly rate. Your quote will explain both options."
+      ],
+      [
+        "Can we change plans later?",
+        "Yes. As you add devices, systems or locations, we adjust your plan."
+      ],
+      [
+        "We’re an MSP or IT provider. Is partner pricing different?",
+        "Yes. Partnership terms are discussed separately. Explore Partnerships →"
+      ]
+    ]
+  },
+  "thank-you-partner": {
+    "title": "Thank you.",
+    "description": "Thanks for your interest in partnering.",
+    "faqs": []
+  },
+  "thank-you-assessment": {
+    "title": "Thank you.",
+    "description": "Thanks, your free risk assessment request is in.",
+    "faqs": []
+  },
+  "booking-confirmed": {
+    "title": "Thank you.",
+    "description": "Your CorSentri consultation is booked.",
+    "faqs": []
+  },
+  "cookie-policy": {
+    "title": "Cookie Policy",
+    "description": "How the CorSentri website uses cookies, and how to manage your cookie preferences.",
+    "faqs": [],
+    "sections": [
+      {
+        "title": "What cookies are",
+        "html": "<h2>What cookies are</h2><p>Cookies are small text files that a website saves in your browser. Similar technologies, such as local storage, work in much the same way. They help a site remember things, such as your settings, and help site owners understand how their pages are used.</p><p>This policy explains how CorSentri LLC (“CorSentri”, “we”, “us”) uses them on corsentri.com. It should be read together with our <a href=\"/privacy-policy\">Privacy Policy</a>.</p>"
+      },
+      {
+        "title": "Cookies we use",
+        "html": "<h2>Cookies we use</h2><p>We group the cookies on this site into two types:</p><ul><li>Necessary: these keep the website secure and working, such as cookies set by our hosting provider (Webflow), and an entry that remembers your cookie choice. They are always on because the site needs them.</li><li>Analytics: these help us understand how visitors use the site, such as which pages are viewed and how people move between them. We use Google Analytics and Microsoft Clarity for this. Microsoft Clarity may record how you scroll and click so we can improve the pages. These cookies are off by default and only run if you choose “Accept” or turn them on in Cookie Settings.</li></ul><p>When you book a consultation, the booking calendar is provided by Calendly, which may set its own cookies as described in Calendly’s cookie policy.</p>"
+      },
+      {
+        "title": "Your choices",
+        "html": "<h2>Your choices</h2><p>When you first visit, a banner asks whether you accept analytics cookies. You can accept or reject them, and the site works the same either way.</p><p>You can change your mind at any time by opening <a href=\"#cookie-settings\">Cookie Settings</a>, which is also linked in the footer of every page. If you turn analytics off, we stop loading those tools from that point on.</p>"
+      },
+      {
+        "title": "Browser settings",
+        "html": "<h2>Browser settings</h2><p>Most browsers also let you see, block or delete cookies in their settings. If you block necessary cookies, parts of the site may not work properly. If you clear your browser’s storage, we will ask for your cookie choice again on your next visit.</p>"
+      },
+      {
+        "title": "Changes to this policy",
+        "html": "<h2>Changes to this policy</h2><p>We may update this policy when we change the tools we use or when the law changes. The “Last updated” date at the top of this page shows when it last changed.</p>"
+      },
+      {
+        "title": "Contact us",
+        "html": "<h2>Contact us</h2><p>If you have questions about how we use cookies, email <a href=\"mailto:contact@corsentri.com\">contact@corsentri.com</a> or call <a href=\"tel:+19804094888\">(980) 409-4888</a>.</p>"
+      }
+    ]
+  },
+  "privacy-policy": {
+    "title": "Privacy Policy",
+    "description": "How CorSentri collects, uses and protects personal information shared through this website.",
+    "faqs": [],
+    "sections": [
+      {
+        "title": "Who we are",
+        "html": "<h2>Who we are</h2><p>This policy explains how CorSentri LLC (“CorSentri”, “we”, “us”) collects, uses and protects personal information when you visit corsentri.com, fill in one of our forms or book a consultation with us.</p><p>CorSentri provides managed cybersecurity monitoring for organizations in the United States. For the purposes of this website, CorSentri is responsible for the personal information described in this policy.</p>"
+      },
+      {
+        "title": "Information we collect",
+        "html": "<h2>Information we collect</h2><p>We only collect the information we need to respond to you and run this website:</p><ul><li>Contact details you give us in our contact, partner or risk assessment forms, such as your name, work email, phone number, company name, role and the details you write in your message.</li><li>Booking details you give when you schedule a consultation through our scheduling tool, such as your name, email address and the time you choose.</li><li>Technical information sent by your browser, such as your IP address, browser type, device type and the pages you visit. If you allow analytics cookies, this also includes how you use the site.</li></ul><p>Please do not send passwords, security credentials or sensitive personal data through our website forms.</p>"
+      },
+      {
+        "title": "How we use information",
+        "html": "<h2>How we use information</h2><p>We use your information to:</p><ul><li>Reply to your inquiry and arrange the conversation or consultation you asked for.</li><li>Prepare and deliver a risk assessment you requested.</li><li>Discuss our services or a partnership with you, and send information you asked to receive.</li><li>Keep this website secure, working properly and free from spam or misuse.</li><li>Understand how the website is used so we can improve it, but only if you have allowed analytics cookies.</li><li>Meet our legal obligations and protect our legal rights.</li></ul><p>We do not sell your personal information, and we do not use it for automated decisions that have legal or similarly significant effects on you.</p>"
+      },
+      {
+        "title": "Cookies",
+        "html": "<h2>Cookies</h2><p>We use a small number of cookies and similar technologies. Necessary ones keep the site working and remember your cookie choice. Analytics ones help us understand how the site is used, and they only run if you accept them.</p><p>You can change your choice at any time through <a href=\"#cookie-settings\">Cookie Settings</a>. Full details are in our <a href=\"/cookie-policy\">Cookie Policy</a>.</p>"
+      },
+      {
+        "title": "Sharing information",
+        "html": "<h2>Sharing information</h2><p>We share personal information only with service providers that help us run our business. They may use it only to provide their services to us. These include:</p><ul><li>Our website hosting and form provider (Webflow).</li><li>Our scheduling provider (Calendly) for consultation bookings.</li><li>Our email and business software providers.</li><li>Analytics providers (Google Analytics and Microsoft Clarity), only if you allow analytics cookies.</li></ul><p>We may also disclose information when the law requires it, to protect our rights or the safety of others, or as part of a merger, sale or reorganization of our business. Some of our providers may process information outside your state or country. Where they do, we expect them to protect it appropriately.</p>"
+      },
+      {
+        "title": "How long we keep it",
+        "html": "<h2>How long we keep it</h2><p>We keep personal information only as long as we need it for the purposes in this policy. Inquiry, assessment and booking records are kept while we are in contact with you, and then for as long as we reasonably need them for business records. We review them regularly and delete or anonymize information we no longer need.</p><p>If you become a CorSentri client, your information is handled under your service agreement. We may keep some information longer when the law requires it or to resolve disputes.</p>"
+      },
+      {
+        "title": "Your choices and rights",
+        "html": "<h2>Your choices and rights</h2><p>Depending on where you live, you may have the right to:</p><ul><li>Ask what personal information we hold about you and get a copy.</li><li>Ask us to correct or delete it.</li><li>Opt out of marketing emails at any time, using the unsubscribe link or by contacting us.</li><li>Withdraw consent to analytics cookies through Cookie Settings.</li></ul><p>To make a request, contact us using the details below. We may need to confirm your identity first. We will not treat you differently for using your rights. This website is meant for businesses, and we do not knowingly collect information from children under 13.</p>"
+      },
+      {
+        "title": "Contact us",
+        "html": "<h2>Contact us</h2><p>If you have questions about this policy or how we handle your information, email <a href=\"mailto:contact@corsentri.com\">contact@corsentri.com</a> or call <a href=\"tel:+19804094888\">(980) 409-4888</a>.</p><p>We may update this policy from time to time. When we do, we will change the “Last updated” date at the top of this page.</p>"
+      }
+    ]
+  },
+  "terms-of-use": {
+    "title": "Terms of Use",
+    "description": "The terms that apply when you use the CorSentri website.",
+    "faqs": [],
+    "sections": [
+      {
+        "title": "About these terms",
+        "html": "<h2>About these terms</h2><p>These Terms of Use apply to your use of corsentri.com, which is operated by CorSentri LLC (“CorSentri”, “we”, “us”). By using this website, you agree to these terms. If you do not agree, please do not use the site.</p><p>These terms cover the website only. Any monitoring or security services we provide are governed by a separate written agreement between CorSentri and the client.</p>"
+      },
+      {
+        "title": "Using this website",
+        "html": "<h2>Using this website</h2><p>You may use this website for lawful purposes, to learn about CorSentri and to contact us. You agree not to:</p><ul><li>Try to gain unauthorized access to the site, its systems or the data of others.</li><li>Probe, scan or test the site for vulnerabilities, or interfere with how it works, without our written permission.</li><li>Send spam, malicious code or false information through our forms.</li><li>Copy or scrape the site’s content by automated means.</li></ul><p>If you think you have found a security issue on this website, please report it to us at <a href=\"mailto:contact@corsentri.com\">contact@corsentri.com</a>.</p>"
+      },
+      {
+        "title": "Information on this site",
+        "html": "<h2>Information on this site</h2><p>The content on this website, including our articles and resources, is general information about cybersecurity monitoring. It is not legal, compliance or professional advice for your situation, and reading it does not create a client relationship.</p><p>Our services can support your security and compliance efforts, but no service can guarantee that every threat will be detected or prevented, or that you will meet a particular regulation such as HIPAA or PCI DSS.</p>"
+      },
+      {
+        "title": "Consultations and services",
+        "html": "<h2>Consultations and services</h2><p>Booking a consultation or asking for a risk assessment does not commit you or us to any service. Any proposal, pricing or scope we share is an estimate until we both sign a written agreement. When you send us information through a form, you confirm that it is accurate and that you are allowed to share it.</p>"
+      },
+      {
+        "title": "Intellectual property",
+        "html": "<h2>Intellectual property</h2><p>The CorSentri name, logo, website design, text, graphics and other content belong to CorSentri or its licensors and are protected by intellectual property laws. You may view and share pages for personal or internal business use. You may not copy, change, republish or use our content or brand for commercial purposes without our written permission.</p>"
+      },
+      {
+        "title": "Third-party links and tools",
+        "html": "<h2>Third-party links and tools</h2><p>This website links to, and includes tools from, other companies, such as our scheduling provider and LinkedIn. We are not responsible for their content, availability or privacy practices. Your use of them is governed by their own terms.</p>"
+      },
+      {
+        "title": "Disclaimers and liability",
+        "html": "<h2>Disclaimers and liability</h2><p>This website is provided “as is” and “as available”. We work to keep it accurate, secure and available, but we do not promise that it will always be error-free, uninterrupted or up to date.</p><p>To the fullest extent allowed by law, CorSentri is not liable for any indirect, incidental or consequential loss arising from your use of this website. Nothing in these terms limits any liability that cannot be limited under applicable law.</p>"
+      },
+      {
+        "title": "Changes and governing law",
+        "html": "<h2>Changes and governing law</h2><p>We may update these terms from time to time. The “Last updated” date at the top shows when they last changed. If you keep using the site after a change, you accept the updated terms.</p><p>These terms are governed by the laws of the State of North Carolina and applicable federal law of the United States, without regard to conflict-of-law rules.</p>"
+      },
+      {
+        "title": "Contact us",
+        "html": "<h2>Contact us</h2><p>Questions about these terms? Email <a href=\"mailto:contact@corsentri.com\">contact@corsentri.com</a> or call <a href=\"tel:+19804094888\">(980) 409-4888</a>. You can also read our <a href=\"/privacy-policy\">Privacy Policy</a> and <a href=\"/cookie-policy\">Cookie Policy</a>.</p>"
+      }
+    ]
+  },
+  "thank-you": {
+    "title": "Thank you.",
+    "description": "Thanks, we’ve got your message.",
+    "faqs": []
+  },
+  "who-we-serve": {
+    "title": "For organizations that hold information worth protecting.",
+    "description": "Patient records, client files, payment data. If you hold it, we help you spot unusual activity sooner, at one site or many.",
+    "faqs": []
+  },
+  "resources": {
+    "title": "Practical guides for staying a step ahead.",
+    "description": "Short reads on monitoring, warning signs and choosing a partner. Most take about five minutes.",
+    "faqs": []
+  },
+  "msp-partners": {
+    "title": "Look after other organizations’ IT? Let’s talk.",
+    "description": "For MSPs and IT providers. Offer your clients 24/7/365 monitoring and threat detection, with no analysts to hire and no SOC to run.",
+    "faqs": [
+      [
+        "Who is the partnership for?",
+        "MSPs and IT services companies that look after other organizations’ IT and want to offer security monitoring and threat detection to their clients."
+      ],
+      [
+        "Do we need security staff of our own?",
+        "No. AI-enabled technology does the constant watching and our security team reviews what it flags. You stay the trusted contact for your clients."
+      ],
+      [
+        "What support is available?",
+        "Our security team monitors 24/7/365 and reviews alerts before they reach you. Support arrangements are agreed during your partner discussion."
+      ],
+      [
+        "What does it cost?",
+        "Partnership details, including commercial terms, are shared during a partner discussion."
+      ]
+    ]
+  },
+  "book-a-consultation": {
+    "title": "Talk it through with our team.",
+    "description": "A short call to talk through your systems, your concerns and what monitoring would cover.",
+    "faqs": []
+  },
+  "about": {
+    "title": "Serious protection, explained in plain English.",
+    "description": "Plain answers, a process you can see and room to grow, without building a security department of your own.",
+    "faqs": []
+  },
+  "solutions": {
+    "title": "Cybersecurity monitoring and threat detection for your business.",
+    "description": "Spot unusual activity sooner without building your own security team. We watch around the clock and explain what matters in plain English.",
+    "faqs": [
+      [
+        "Which systems can you monitor?",
+        "Coverage is confirmed during onboarding based on your environment and service agreement. We talk through your systems during your consultation."
+      ],
+      [
+        "What happens if you spot a threat?",
+        "Our security team reviews the activity. If it needs your attention, you get an alert with context: what happened, why it matters and the recommended next step. Alert handling, notification channels and response responsibilities are agreed as part of your service."
+      ],
+      [
+        "Does monitoring make us compliant?",
+        "No. Monitoring alone does not make an organization compliant with HIPAA or any other framework. It can support your wider security efforts, for example by helping you keep an eye on activity in systems that hold patient or client information. Your compliance program remains your responsibility."
+      ],
+      [
+        "How much does it cost?",
+        "It depends on the systems we monitor and your service requirements. We talk it through during your consultation, so you know what is included before anything starts. See how pricing works →"
+      ]
+    ]
+  },
+  "free-risk-assessment": {
+    "title": "See where your security stands.",
+    "description": "A free, no-obligation look at how your organization watches for threats today, and where warning signs could go unnoticed.",
+    "faqs": []
+  },
+  "contact": {
+    "title": "Talk to us about your systems.",
+    "description": "Questions about monitoring or how we work? Send us a message or give us a call.",
+    "faqs": []
+  },
+  "home": {
+    "title": "Smarter Security. Greater Confidence.",
+    "description": "Cybersecurity monitoring that helps protect your business, detect threats, and keep you informed.",
+    "faqs": [
+      [
+        "What is cybersecurity monitoring?",
+        "Keeping continuous watch over activity across your systems, such as sign-ins, file changes and settings, to spot suspicious behavior early so our security team can review it and pass it to the right person."
+      ],
+      [
+        "Do we need our own security team?",
+        "No. CorSentri is a managed service: AI-enabled technology watches your critical systems, and our security team reviews what it flags. You stay in charge of decisions, and we tell you what happened, why it matters and what to do next."
+      ],
+      [
+        "Which systems can you monitor?",
+        "Coverage is confirmed during onboarding based on your environment and service agreement. We talk through your systems during your consultation."
+      ],
+      [
+        "What happens if you spot a threat?",
+        "Our security team reviews the activity. If it needs your attention, you get an alert with context: what happened, why it matters and the recommended next step. Alert handling, notification channels and response responsibilities are agreed as part of your service."
+      ],
+      [
+        "Does monitoring make us compliant?",
+        "No. Monitoring alone does not make an organization compliant with HIPAA or any other framework. It can support your wider security efforts, for example by helping you keep an eye on activity in systems that hold patient or client information. Your compliance program remains your responsibility."
+      ],
+      [
+        "How much does it cost?",
+        "It depends on the systems we monitor and your service requirements. We talk it through during your consultation, so you know what is included before anything starts. See how pricing works →"
+      ],
+      [
+        "How do we get started?",
+        "Book a consultation. We talk through your systems and concerns, agree what to cover, set up monitoring and confirm how alerts will reach you."
+      ]
+    ]
+  }
+}
