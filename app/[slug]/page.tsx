@@ -1,8 +1,83 @@
-import type {Metadata} from 'next';
-import {notFound} from 'next/navigation';
-import {pages,pageSlugs} from '../lib/content';
-import {SolutionsPage,AboutPage,IndustriesPage,PartnersPage,PricingPage,ResourcesPage,ContactPage,AssessmentPage,BookingPage,LegalPage,ConfirmationPage} from '../components/content-pages';
-export function generateStaticParams(){return pageSlugs.map(slug=>({slug}))}
-export const dynamicParams=false;
-export async function generateMetadata({params}:{params:Promise<{slug:string}>}):Promise<Metadata>{const {slug}=await params;const page=pages[slug];return {title:page?`${page.title} | CorSentri`:'Page not found | CorSentri',description:page?.description,alternates:{canonical:`/${slug}`},robots:slug.startsWith('thank-you')||slug==='booking-confirmed'?{index:false,follow:false}:undefined}}
-export default async function Page({params}:{params:Promise<{slug:string}>}){const {slug}=await params;if(!pageSlugs.includes(slug))notFound();let content;switch(slug){case 'solutions':content=<SolutionsPage/>;break;case 'about':content=<AboutPage/>;break;case 'who-we-serve':content=<IndustriesPage/>;break;case 'msp-partners':content=<PartnersPage/>;break;case 'pricing':content=<PricingPage/>;break;case 'resources':content=<ResourcesPage/>;break;case 'contact':content=<ContactPage/>;break;case 'free-risk-assessment':content=<AssessmentPage/>;break;case 'book-a-consultation':content=<BookingPage/>;break;case 'privacy-policy':case 'terms-of-use':case 'cookie-policy':content=<LegalPage slug={slug}/>;break;default:content=<ConfirmationPage slug={slug}/>;}return <main id="main" className={`inner-page page-${slug}`}>{content}</main>}
+import type { Metadata } from "next";
+import { notFound } from "next/navigation";
+import { pages, pageSlugs } from "../lib/content";
+import {
+  SolutionsPage,
+  AboutPage,
+  IndustriesPage,
+  PartnersPage,
+  PricingPage,
+  ResourcesPage,
+  AssessmentPage,
+  BookingPage,
+  LegalPage,
+  ConfirmationPage,
+} from "../components/content-pages";
+export function generateStaticParams() {
+  return pageSlugs.map((slug) => ({ slug }));
+}
+export const dynamicParams = false;
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  const page = pages[slug];
+  return {
+    title: page ? `${page.title} | CorSentri` : "Page not found | CorSentri",
+    description: page?.description,
+    alternates: { canonical: `/${slug}` },
+    robots:
+      slug.startsWith("thank-you") || slug === "booking-confirmed"
+        ? { index: false, follow: false }
+        : undefined,
+  };
+}
+export default async function Page({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
+  const { slug } = await params;
+  if (!pageSlugs.includes(slug)) notFound();
+  let content;
+  switch (slug) {
+    case "solutions":
+      content = <SolutionsPage />;
+      break;
+    case "about":
+      content = <AboutPage />;
+      break;
+    case "who-we-serve":
+      content = <IndustriesPage />;
+      break;
+    case "msp-partners":
+      content = <PartnersPage />;
+      break;
+    case "pricing":
+      content = <PricingPage />;
+      break;
+    case "resources":
+      content = <ResourcesPage />;
+      break;
+    case "free-risk-assessment":
+      content = <AssessmentPage />;
+      break;
+    case "book-a-consultation":
+      content = <BookingPage />;
+      break;
+    case "privacy-policy":
+    case "terms-of-use":
+    case "cookie-policy":
+      content = <LegalPage slug={slug} />;
+      break;
+    default:
+      content = <ConfirmationPage slug={slug} />;
+  }
+  return (
+    <main id="main" className={`inner-page page-${slug}`}>
+      {content}
+    </main>
+  );
+}

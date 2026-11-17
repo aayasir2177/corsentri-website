@@ -1,19 +1,147 @@
-import source from './source-content.json';
-export type SourcePage={title:string;description:string;faqs:string[][];html?:string;category?:string;readTime?:string;image?:string;headings?:string[];sections?:{title:string;html:string}[]};
-export const pages=source as Record<string,SourcePage>;
-export const articleSlugs=['what-is-cybersecurity-monitoring','five-warning-signs','choosing-a-monitoring-partner'];
-export const articles=articleSlugs.map(slug=>({slug,...pages[`resources/${slug}`]}));
-export const pageSlugs=Object.keys(pages).filter(k=>k!=='home'&&!k.startsWith('resources/'));
-export const solutionServices=[
-{title:'Continuous monitoring',subtitle:'Your critical systems, watched around the clock.',items:['Activity from your critical systems collected and watched 24/7/365','Nights, weekends and holidays included','Exactly which systems are covered, confirmed before monitoring starts','Monitoring tuned to how your organization normally works']},
-{title:'Threat detection',subtitle:'Activity that doesn’t fit, found and checked.',items:['AI-enabled technology flags activity that looks unusual','Our security team reviews what it flags','Related events connected and assessed together','Real concerns separated from routine noise']},
-{title:'Alerts and escalation',subtitle:'The right people hear about it, with context.',items:['What happened, why it matters and the recommended next step','Sent to the contacts and channels you choose','Clear roles for alert handling and response, agreed up front','Practical next steps for you or your IT team']},
-{title:'Reporting and guidance',subtitle:'A clear picture over time.',items:['Plain-English reports on what was seen and what it meant','Patterns and trends over time','Practical ways to strengthen your security','Written for people who aren’t security specialists']}
+import source from "./source-content.json";
+export type SourcePage = {
+  title: string;
+  description: string;
+  faqs: string[][];
+  html?: string;
+  category?: string;
+  readTime?: string;
+  image?: string;
+  headings?: string[];
+  sections?: { title: string; html: string }[];
+};
+export const pages = source as Record<string, SourcePage>;
+export const articleSlugs = [
+  "what-is-cybersecurity-monitoring",
+  "five-warning-signs",
+  "choosing-a-monitoring-partner",
 ];
-export const industries=[
-{id:'healthcare',title:'Healthcare & medical practices',image:'who-healthcare.jpg',description:'Keep a closer eye on sign-ins and access around patient information and practice systems, supporting your HIPAA security efforts.',items:['Visibility into activity around electronic patient information','Supports the activity reviews the HIPAA Security Rule expects','Alerts in plain English your practice team can act on']},
-{id:'legal',title:'Legal',image:'who-legal.jpg',description:'Watch over the systems that hold confidential client files and correspondence.',items:['Unusual access to client files flagged for review','Supports your duty to protect client confidentiality','Clear reports you can share with partners']},
-{id:'finance',title:'Accounting, finance & insurance',image:'who-finance.jpg',description:'Spot suspicious sign-ins and account changes sooner, where money and personal data move every day.',items:['Watch for unusual sign-ins and account changes','Supports the safeguards financial regulators expect','Context on what happened and what to do next']},
-{id:'retail',title:'Retail & hospitality',image:'who-hospitality.jpg',description:'Keep watch over business systems across busy sites and locations.',items:['Coverage across one site or many','Activity around payment and guest data watched 24/7/365','One view of what happened, wherever it happened']}
+export const articles = articleSlugs.map((slug) => ({
+  slug,
+  ...pages[`resources/${slug}`],
+}));
+export const pageSlugs = Object.keys(pages).filter(
+  (k) => k !== "home" && k !== "contact" && !k.startsWith("resources/"),
+);
+export const solutionServices = [
+  {
+    title: "Continuous monitoring",
+    subtitle: "Your critical systems, watched around the clock.",
+    items: [
+      "Activity from your critical systems collected and watched 24/7/365",
+      "Nights, weekends and holidays included",
+      "Exactly which systems are covered, confirmed before monitoring starts",
+      "Monitoring tuned to how your organization normally works",
+    ],
+  },
+  {
+    title: "Threat detection",
+    subtitle: "Activity that doesn’t fit, found and checked.",
+    items: [
+      "AI-enabled technology flags activity that looks unusual",
+      "Our security team reviews what it flags",
+      "Related events connected and assessed together",
+      "Real concerns separated from routine noise",
+    ],
+  },
+  {
+    title: "Alerts and escalation",
+    subtitle: "The right people hear about it, with context.",
+    items: [
+      "What happened, why it matters and the recommended next step",
+      "Sent to the contacts and channels you choose",
+      "Clear roles for alert handling and response, agreed up front",
+      "Practical next steps for you or your IT team",
+    ],
+  },
+  {
+    title: "Reporting and guidance",
+    subtitle: "A clear picture over time.",
+    items: [
+      "Plain-English reports on what was seen and what it meant",
+      "Patterns and trends over time",
+      "Practical ways to strengthen your security",
+      "Written for people who aren’t security specialists",
+    ],
+  },
 ];
-export const partnerBenefits=[['24/7/365 SOC coverage','Offer round-the-clock monitoring to your clients, including nights, weekends and holidays.'],['New recurring revenue','Add a security service your clients are already asking for. Partnership terms are shared during a partner discussion.'],['No security practice to build','Our security team reviews what AI-enabled technology flags, so you don’t need to hire or train analysts.'],['Plain-English reporting','Clear reports and alerts with context that you and your clients can understand.'],['A clear partnership from the start','Service scope and support arrangements are discussed before onboarding.'],['One more service, same client','Add security monitoring to the services you already sell. Your clients get one less vendor to manage.'],['Grow at your pace','Start with the two or three clients asking loudest. Add more when you’re ready.']];
+export const industries = [
+  {
+    id: "healthcare",
+    title: "Healthcare & medical practices",
+    image: "who-healthcare.jpg",
+    description:
+      "Keep a closer eye on sign-ins and access around patient information and practice systems, supporting your HIPAA security efforts.",
+    items: [
+      "Visibility into activity around electronic patient information",
+      "Supports the activity reviews the HIPAA Security Rule expects",
+      "Alerts in plain English your practice team can act on",
+    ],
+  },
+  {
+    id: "legal",
+    title: "Legal",
+    image: "who-legal.jpg",
+    description:
+      "Watch over the systems that hold confidential client files and correspondence.",
+    items: [
+      "Unusual access to client files flagged for review",
+      "Supports your duty to protect client confidentiality",
+      "Clear reports you can share with partners",
+    ],
+  },
+  {
+    id: "finance",
+    title: "Accounting, finance & insurance",
+    image: "who-finance.jpg",
+    description:
+      "Spot suspicious sign-ins and account changes sooner, where money and personal data move every day.",
+    items: [
+      "Watch for unusual sign-ins and account changes",
+      "Supports the safeguards financial regulators expect",
+      "Context on what happened and what to do next",
+    ],
+  },
+  {
+    id: "retail",
+    title: "Retail & hospitality",
+    image: "who-hospitality.jpg",
+    description:
+      "Keep watch over business systems across busy sites and locations.",
+    items: [
+      "Coverage across one site or many",
+      "Activity around payment and guest data watched 24/7/365",
+      "One view of what happened, wherever it happened",
+    ],
+  },
+];
+export const partnerBenefits = [
+  [
+    "24/7/365 SOC coverage",
+    "Offer round-the-clock monitoring to your clients, including nights, weekends and holidays.",
+  ],
+  [
+    "New recurring revenue",
+    "Add a security service your clients are already asking for. Partnership terms are shared during a partner discussion.",
+  ],
+  [
+    "No security practice to build",
+    "Our security team reviews what AI-enabled technology flags, so you don’t need to hire or train analysts.",
+  ],
+  [
+    "Plain-English reporting",
+    "Clear reports and alerts with context that you and your clients can understand.",
+  ],
+  [
+    "A clear partnership from the start",
+    "Service scope and support arrangements are discussed before onboarding.",
+  ],
+  [
+    "One more service, same client",
+    "Add security monitoring to the services you already sell. Your clients get one less vendor to manage.",
+  ],
+  [
+    "Grow at your pace",
+    "Start with the two or three clients asking loudest. Add more when you’re ready.",
+  ],
+];
